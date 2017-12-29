@@ -1,0 +1,58 @@
+body {
+    background: lightgray;
+    margin: 0px;
+}
+
+div.header {
+    background: darkgray;
+    margin: 0px;
+}
+
+img.header {
+    height: 100px;
+    margin: 0px;
+}
+ul.nav {
+    list-style-type: none;
+    background: darkgray;
+    position: fixed;
+    overflow: auto;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+}
+
+li.nav a {
+    display: block;
+    color: #000000;
+    padding: 8px 16px;
+}
+
+li a:hover {
+    background-color: #000555;
+    color: white;
+}
+
+div.body {
+    display: block;
+    position: relative;
+    left: 100px;
+}
+
+div.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+img.footer {
+    height: 1em;
+}

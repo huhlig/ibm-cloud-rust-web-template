@@ -1,0 +1,6 @@
+# IntelliJ
+.idea
+
+# Rust
+Cargo.lock
+target

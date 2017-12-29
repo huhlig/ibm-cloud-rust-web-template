@@ -1,0 +1,11 @@
+[package]
+name = "ibm-cloud-rust-web-template"
+version = "0.0.1"
+authors = ["Hans W. Uhlig <hans.uhlig@ibm.com>"]
+
+[dependencies]
+iron = "*"
+logger = "*"
+mount = "*"
+router = "*"
+staticfile = "*"

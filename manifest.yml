@@ -1,0 +1,4 @@
+---
+applications:
+- name: ibm-cloud-rust-web-template
+  buildpack: https://github.com/huhlig/rust-buildpack
